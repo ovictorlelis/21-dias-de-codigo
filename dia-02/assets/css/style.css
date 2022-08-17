@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #010101;
+    background: #fff;
     color: #777;
 }
 
@@ -23,7 +23,7 @@ h1 {
     font-weight: 500;
     margin-bottom: 5px;
     text-transform: uppercase;
-    color: #fff;
+    color: #111;
 }
 
 h1 span {
@@ -43,6 +43,6 @@ p img {
 }
 
 p a {
-    color: #fff;
+    color: #111;
     text-decoration: none;
 }
