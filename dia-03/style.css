@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 15px;
+  background: #ccc;
+  color: #111;
+}
+
+body.on {
+  background: #111;
+  color: #fff;
+}
+
+
+button {
+  padding: 15px;
+  font-size: 2rem;
+  width: 200px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #fff;
+  color: #111;
+}
