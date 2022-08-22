@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: #612F74;
+  background-image: linear-gradient(to right top, #250830, #470d5e, #6b0e90, #910bc6, #b900ff);
+}
+
+main {
+  width: 345px;
+  height: 235px;
+  max-width: 95%;
+  border-radius: 10px;
+  padding: 15px 12px;
+  z-index: 2;
+  color: #dfdfdf;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: linear-gradient(110.59deg, rgba(255, 255, 255, 0.18) 1.41%, rgba(255, 255, 255, 0.275) 100%);
+  background-blend-mode: multiply;
+  mix-blend-mode: normal;
+  box-shadow: 20px 20px 100px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(20px);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  transform: scale(0.7);
+  transform-origin: left;
+  padding-bottom: 15px;
+}
+
+.no {
+  font-size: 1.25rem;
+}
+
+.no,
+.valid,
+.vendor {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.valid {
+  font-size: 0.8rem;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.vendor {
+  margin-top: 15px;
+}
