@@ -1,0 +1,58 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  background: #353b48;
+}
+
+.images {
+  display: grid;
+  gap: 3.2rem;
+}
+
+.image img {
+  border-radius: 2rem;
+  object-fit: cover;
+  width: 100%;
+  max-height: 54rem;
+}
+
+.image img.small {
+  max-height: 25rem;
+}
+
+@media (min-width: 960px) {
+
+  .images {
+    grid-template-areas: 'A A B' 'C D B';
+  }
+
+  .image:nth-child(1) {
+    grid-area: A;
+  }
+
+  .image:nth-child(2) {
+    grid-area: B;
+  }
+
+  .image:nth-child(3) {
+    grid-area: C;
+  }
+
+  .image:nth-child(4) {
+    grid-area: D;
+  }
+}
