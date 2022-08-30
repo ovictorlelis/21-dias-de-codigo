@@ -1,0 +1,152 @@
+:root {
+  --color-white: #F9F9F9;
+  --color-white-200: #EBE9EA;
+  --color-gray: #474747;
+  --color-black-light: #181818;
+
+  --font: 'Montserrat', sans-serif;
+  --font-size: 62.5%;
+
+  font-size: var(--font-size);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 1.6rem;
+  background: var(--color-white);
+}
+
+#topbar {
+  background: var(--color-black-light);
+  color: var(--color-white);
+  line-height: 3.1rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header h1 {
+  font-size: 2.4em;
+  line-height: 4.7rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 7px 0;
+}
+
+#hero {
+  color: var(--color-white);
+  position: relative;
+  height: 37.8rem;
+  padding: 12rem 0 12rem 2rem;
+  margin-bottom: 5rem;
+}
+
+#hero::before {
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 37.8rem;
+  z-index: -1;
+  position: absolute;
+  background: var(--color-black-light);
+  opacity: 0.6;
+}
+
+#hero img {
+  top: 0;
+  left: 0;
+  height: 37.8rem;
+  object-fit: cover;
+  z-index: -2;
+  position: absolute;
+
+}
+
+#hero h2 {
+
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+#hero p {
+  line-height: 2.8rem;
+  font-weight: 600;
+}
+
+#products {
+  padding: 0 2rem;
+  margin-bottom: 5rem;
+}
+
+#products header {
+  text-align: center;
+  max-width: 37.4rem;
+}
+
+#products header h2 {
+  margin-bottom: 5px;
+  font-size: 2.8rem;
+  line-height: 5.4rem;
+  font-weight: 600;
+}
+
+#products header p {
+  margin: 0 auto 6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+}
+
+#products article {
+  background: var(--color-white-200);
+  padding: 6rem 0;
+  margin-bottom: 3rem;
+}
+
+#products article h3 {
+  margin-top: 1.6rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+
+footer {
+  background: var(--color-black-light);
+  text-align: center;
+  color: var(--color-white);
+  padding: 1.2rem 0;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+}
+
+@media (min-width: 1360px) {
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    justify-content: center;
+  }
+
+  #products header {
+    min-width: 100%;
+    flex-basis: 100%;
+  }
+
+  #products article {
+    flex-basis: 30rem;
+  }
+}
