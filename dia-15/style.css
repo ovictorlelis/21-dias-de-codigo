@@ -94,6 +94,7 @@ header h1 {
 #products header {
   text-align: center;
   max-width: 37.4rem;
+  margin: 0 auto;
 }
 
 #products header h2 {
