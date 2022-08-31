@@ -1,8 +1,9 @@
 # 21 Dias de Código
+
 Repositorio criado para o desafio 21 dias de codigo com a Rocketseat
 
-| Desafio |
-|--|
+| Desafio                                                         |
+| --------------------------------------------------------------- |
 | [#02](https://ovictorlelis.github.io/21-dias-de-codigo/dia-02/) |
 | [#03](https://ovictorlelis.github.io/21-dias-de-codigo/dia-03/) |
 | [#04](https://ovictorlelis.github.io/21-dias-de-codigo/dia-04/) |
@@ -17,3 +18,4 @@ Repositorio criado para o desafio 21 dias de codigo com a Rocketseat
 | [#13](https://ovictorlelis.github.io/21-dias-de-codigo/dia-13/) |
 | [#14](https://ovictorlelis.github.io/21-dias-de-codigo/dia-14/) |
 | [#15](https://ovictorlelis.github.io/21-dias-de-codigo/dia-15/) |
+| [#15](https://ovictorlelis.github.io/21-dias-de-codigo/dia-16/) |
