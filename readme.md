@@ -2,6 +2,7 @@ Repositorio criado para o desafio 21 dias de codigo com a Rocketseat
 
 | Data       | Desafio                                                         |
 | ---------- | --------------------------------------------------------------- |
+| 16/08/2022 | [#01](https://ovictorlelis.github.io/21-dias-de-codigo/)        |
 | 17/08/2022 | [#02](https://ovictorlelis.github.io/21-dias-de-codigo/dia-02/) |
 | 18/08/2022 | [#03](https://ovictorlelis.github.io/21-dias-de-codigo/dia-03/) |
 | 19/08/2022 | [#04](https://ovictorlelis.github.io/21-dias-de-codigo/dia-04/) |
