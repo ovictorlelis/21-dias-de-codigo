@@ -276,4 +276,8 @@ footer p {
   article .content {
     position: initial;
   }
+
+  article .content .info {
+    width: 100%;
+  }
 }
